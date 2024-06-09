@@ -16,7 +16,7 @@ def voice_input():
         aud = recognizer.listen(source)
         try:
             query = recognizer.recognize_google(aud, language="en-US")
-            print(query)
+            # print(query)
             return query
         except Exception as e:
             return " "

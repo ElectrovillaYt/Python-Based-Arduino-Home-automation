@@ -7,3 +7,4 @@ and make sure to install required modules in python used here!
 3. pyserial
 4. win32com.client
 5. pyaudio
+6. setuptools

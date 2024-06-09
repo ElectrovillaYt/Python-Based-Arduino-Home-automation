@@ -6,3 +6,4 @@ and make sure to install required modules in python used here!
 2. time
 3. pyserial
 4. win32com.client
+5. pyaudio

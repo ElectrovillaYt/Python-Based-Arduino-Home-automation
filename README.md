@@ -1,6 +1,4 @@
-Upload the .ino file to the arduino
-
-and make sure to install required modules in python used here!
+Make sure to install required modules in python used here!
 
 1. speechrecognition
 2. pyfirmata

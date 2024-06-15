@@ -30,31 +30,31 @@ def recognize():
     while True:
         query = voice_input()
         if query.lower() == "turn on led 1":
-            spk.speak("Okay, Turning led 1 ON")
+            spk.speak("Okay, Turning l,e,d 1 ON")
             out_1.write(1)
         elif query.lower() == "turn off led 1":
-            spk.speak("Okay, Turning led 1 OFF")
+            spk.speak("Okay, Turning l,e,d 1 OFF")
             out_1.write(0)
         
         if query.lower() == "turn on led 2":
-            spk.speak("Okay, Turning led 2 ON")
+            spk.speak("Okay, Turning l,e,d 2 ON")
             out_2.write(1)
         elif query.lower() == "turn off led 2":
-            spk.speak("Okay, Turning led 2 OFF")
+            spk.speak("Okay, Turning l,e,d 2 OFF")
             out_2.write(0)
         
         if query.lower() == "turn on led 3":
-            spk.speak("Okay, Turning led 3 ON")
+            spk.speak("Okay, Turning l,e,d 3 ON")
             out_3.write(1)
         elif query.lower() == "turn off led 3":
-            spk.speak("Okay, Turning led 3 OFF")
+            spk.speak("Okay, Turning l,e,d 3 OFF")
             out_3.write(0)
         
         if query.lower() == "turn on led 4":
-            spk.speak("Okay, Turning led 4 ON")
+            spk.speak("Okay, Turning l,e,d 4 ON")
             out_4.write(1)
         elif query.lower() == "turn off led 4":
-            spk.speak("Okay, Turning led 4 OFF")
+            spk.speak("Okay, Turning l,e,d 4 OFF")
             out_4.write(0)
 
         elif query.lower() == "turn on all leds":
@@ -84,5 +84,5 @@ def recognize():
 while True:
     query = voice_input()
     if query.lower() == "hey jarvis":
-        spk.speak(f"Hi there, How can I assist you today?")
+        spk.speak("Hi there, How can I assist you today?")
         recognize()
